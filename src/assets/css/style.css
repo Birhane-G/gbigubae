@@ -1,0 +1,75 @@
+.Navigation-bar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  z-index: 90;
+}
+.Gbigubae-Logo h1 {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+.logo-text {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+.links {
+  margin-left: 250px;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+}
+.links ul li {
+  margin-left: 30px;
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.links ul li:hover {
+  color: brown;
+}
+li:last-child {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  padding: 8px 12px;
+}
+li:last-child:hover {
+  color: black !important;
+  background: none !important;
+  border: 2px solid black;
+}
+.background-image {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  align-items: center;
+  background-image: url("../image/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.image-text-container h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.image-text-container p {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  color: white;
+}
