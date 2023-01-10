@@ -21,7 +21,7 @@ export const Header = () => {
           },
       ];
   return (
-    <section className="Navigation-bar">
+    <div className="Navigation-bar">
     <div className="Gbigubae-Logo">
       <h1>
         <span className="logo-text">GIBI</span> GUBAE
@@ -36,6 +36,6 @@ export const Header = () => {
         </ul>
       </div>
     </div>
-  </section>
+  </div>
   )
 }

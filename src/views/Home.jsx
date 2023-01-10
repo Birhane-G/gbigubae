@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "./inc/Header";
-
+import { BlogSection } from "./Blog/BlogSection";
 export const Home = () => {
   return (
     <section>
@@ -12,6 +12,7 @@ export const Home = () => {
           <p>welcome to Gibi Gubae</p>
         </div>
       </div>
+      <BlogSection />
     </section>
   );
 };

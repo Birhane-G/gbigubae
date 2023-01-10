@@ -1,13 +1,15 @@
 .Navigation-bar {
   width: 100%;
-  height: 10vh;
+  height: 65px;
+  max-width: auto;
+  max-height: auto;
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  z-index: 90;
+  z-index: 100;
 }
 .Gbigubae-Logo h1 {
   border: 1px solid black;
@@ -46,12 +48,12 @@ li:last-child:hover {
   background: none !important;
   border: 2px solid black;
 }
+
 .background-image {
   width: 100%;
-  height: 100vh;
-  position: absolute;
+  height: 650px;
   align-items: center;
-  background-image: url("../image/image.jpg");
+  background-image: url("../image/image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

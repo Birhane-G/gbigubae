@@ -1,0 +1,19 @@
+.blogSection_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10em;
+}
+.Card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.Image{
+    width: 60%;
+}
+.Image img{
+    width: 200px;
+    height: 200px;
+}
