@@ -1,6 +1,8 @@
 import React from "react";
 import { Header } from "./inc/Header";
 import { BlogSection } from "./Blog/BlogSection";
+import { Gallary } from "./Gallary/Gallary";
+import { Footer } from "./footer/Footer";
 export const Home = () => {
   return (
     <section>
@@ -13,6 +15,8 @@ export const Home = () => {
         </div>
       </div>
       <BlogSection />
+      <Gallary />
+      <Footer />
     </section>
   );
 };

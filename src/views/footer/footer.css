@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #0c1730;
+  margin-top: 10em;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+  margin-bottom: 8.5em;
+}
+.fotter_card h1 {
+  margin-bottom: 0.6em;
+  color: #ffc903;
+}
+.address p {
+  color: #ffffff;
+}
+.quickLink li {
+  color: #ffffff;
+}
+.hrline {
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+}
+.footer_bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.footer_bottom span{
+  color: #ffffff;
+}

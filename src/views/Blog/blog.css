@@ -1,19 +1,54 @@
-.blogSection_container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 10em;
+@import "../../assets/css/theme.css";
+.blog {
+  margin-top: 10em;
 }
-.Card_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
+.section_title {
+  display: flex;
+  justify-content: center;
 }
-.Image{
-    width: 60%;
+.blogSection_container {
+  margin-top: 3em;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
 }
-.Image img{
-    width: 200px;
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.card .Image:hover {
+  overflow: hidden;
+  scale: 1.05;
+  transition: 0.7s;
+}
+.card .Image img{
+    width: 400px;
     height: 200px;
 }
+.card .Text_container {
+  width: 60%;
+}
+.card .Text_container .discription p {
+  text-align: justify;
+}
+.readmore {
+  width: 15%;
+  background-color: var(--dl-color-primary-100);
+  padding: 4px 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.readmore a {
+  color: var(--dl-color-gray-white);
+  text-decoration: none;
+}
+.readmore:hover {
+  background: none;
+  border: 1px solid var(--dl-color-primary-100);
+}
+.readmore:hover  a{
+    color :var(--dl-color-primary-100);
+  }
