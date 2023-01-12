@@ -23,9 +23,9 @@
   scale: 1.05;
   transition: 0.7s;
 }
-.card .Image img{
-    width: 400px;
-    height: 200px;
+.card .Image img {
+  width: 400px;
+  height: 200px;
 }
 .card .Text_container {
   width: 60%;
@@ -49,6 +49,6 @@
   background: none;
   border: 1px solid var(--dl-color-primary-100);
 }
-.readmore:hover  a{
-    color :var(--dl-color-primary-100);
-  }
+.readmore:hover a {
+  color: var(--dl-color-primary-100);
+}

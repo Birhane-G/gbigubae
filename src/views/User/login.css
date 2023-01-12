@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    min-width: 100vh;
+    max-width: auto;
+    max-height: auto;
+}
+.login_form_container{
+    display: flex;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}

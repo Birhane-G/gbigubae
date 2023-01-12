@@ -1,4 +1,11 @@
+.about-container{
+    position: relative;
+    top: 30vh;
+}
 .about{
-    position: absolute;
-    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    width: 40%;
 }
