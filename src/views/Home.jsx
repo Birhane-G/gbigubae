@@ -6,7 +6,6 @@ import { Footer } from "./footer/Footer";
 export const Home = () => {
   return (
     <section>
-      <Header />
       <div className="background-image"></div>
       <div className="image-text-container">
         <div className="text">

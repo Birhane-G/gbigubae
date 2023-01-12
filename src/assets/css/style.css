@@ -18,7 +18,7 @@
 }
 .Gbigubae-Logo h1 {
   border: 1px solid black;
-  padding: 5px 10px;
+  padding: 5px ;
   font-size: 25px;
 }
 .logo-text {
@@ -26,15 +26,12 @@
   color: white;
   padding: 5px 10px;
 }
-.links {
-  margin-left: 250px;
-}
 .links ul {
   display: flex;
   align-items: center;
 }
 .links ul li {
-  margin-left: 30px;
+  margin-left: 70px;
   list-style: none;
   font-size: 20px;
   text-transform: uppercase;
@@ -43,14 +40,18 @@
 .links ul li:hover {
   color: brown;
 }
-.links ul li:last-child {
+a{
+  text-decoration: none;
+}
+.links ul a:last-child li{
   background-color: rgb(0, 0, 0);
   color: aliceblue;
-  padding: 8px 12px;
+  padding: 8px 10px;
 }
-.links ul li:last-child:hover {
+.links ul a:last-child:hover li {
   color: black !important;
   background: none !important;
+    padding: 8px 10px;
   border: 2px solid black;
 }
 .background-image {
@@ -69,13 +70,13 @@
   z-index: 100;
 }
 .image-text-container h1 {
-  font-size: 50px;
+  font-size: 80px;
   color: white;
   text-align: center;
 }
 .image-text-container p {
-  position: absolute;
-  top: 55%;
-  left: 20%;
+  position: relative;
+  text-align: center;
+  font-size: 30rm;
   color: white;
 }

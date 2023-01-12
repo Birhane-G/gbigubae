@@ -5,7 +5,7 @@ export const Header = () => {
     const links = [
         {
           label: "Home",
-          link: "/home",
+          link: "/",
         },
         {
           label: "Programmes",
@@ -31,7 +31,7 @@ export const Header = () => {
       <div className="links">
         <ul>
           {links.map((link) => (
-            <li>{link.label}</li>
+            <a href={link.link}><li>{link.label}</li></a>
           ))}
         </ul>
       </div>
